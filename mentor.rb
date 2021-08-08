@@ -12,10 +12,6 @@ end
 
 class RailsMentor < Mentor
     
-    def initialize(name)
-        super(name)
-    end
-    
     def job 
         puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
     end
